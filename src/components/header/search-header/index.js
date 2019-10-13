@@ -1,3 +1,3 @@
-import SearchHeader from './SearchHeader';
+import SearchHeader from "./SearchHeader";
 
-export default SearchHeader;
+export { SearchHeader };

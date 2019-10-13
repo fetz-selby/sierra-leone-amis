@@ -1,3 +1,3 @@
-import RightSideBar from './RightSideBar';
+import RightSideBar from "./RightSideBar";
 
-export default RightSideBar;
+export { RightSideBar };

@@ -1,3 +1,3 @@
-import TagDialog from './TagDialog';
+import TagDialog from "./TagDialog";
 
-export default TagDialog;
+export { TagDialog };

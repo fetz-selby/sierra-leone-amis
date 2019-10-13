@@ -1,0 +1,24 @@
+.joke-list-container{
+    width: 100%;
+}
+
+.joke-list-container .joke-widget-container{
+    padding: 20px 0 20px 10px;
+    border: 1px solid #eaeaea;
+    line-height: 0;
+    cursor: pointer;
+    background: #fff;
+    color:#555;
+}
+
+.joke-list-container .joke-widget-container:hover{
+    border: 1px solid #fefefe;
+    background: #eaeaea;
+    cursor: pointer;
+}
+
+.joke-list-container .joke-widget-container .info{
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-style: italic;
+}

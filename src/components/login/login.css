@@ -1,0 +1,73 @@
+.login-container{
+    width: 100%;
+}
+
+.login{
+    cursor: pointer;
+}
+
+.login-widget-container{
+    width: 100%;
+    background: #fff;
+}
+
+.login-widget-container .avatar-container{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.login-widget-container .avatar-container .avatar{
+    width: 64px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+.login-widget-container .info-container{
+    float: left;
+    width: 70%;
+    line-height: 38px;
+    text-align: center;
+}
+
+.login-widget-container .info-container .inputs{
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    height: 17px;
+    width: 80%;
+}
+
+.login-widget-container .info-container .info{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    height: 24px;
+}
+
+.login-widget-container .action-container{
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-widget-container .action-container .login-btn{
+    float: right;
+    font-weight: 500;
+    color: #c62828;
+    background: #fff;
+    border: 1px solid #c62828;
+    padding: 0px 10px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 22px;
+    font-size: 10px;
+}
+
+.login-widget-container .action-container .login-btn:hover{
+    color: #fff;
+    background: #c62828;
+}

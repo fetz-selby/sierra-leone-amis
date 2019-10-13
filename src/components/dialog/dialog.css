@@ -1,0 +1,52 @@
+.dialog-container{
+    width: 100%;
+    padding: 5px;
+}
+
+.dialog-container .message-container{
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.dialog-container .message-container .message{
+   outline: none;
+}
+
+.dialog-container .action-container{
+    float: left;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dialog-container .action-container .btn{
+    padding: 5px 20px;
+    margin: 0 10px;
+    border: 1px solid #c62828;
+    color: #c62828;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.dialog-container .action-container .btn:hover{
+    color: #fff;
+    background: #c62828;
+ }
+
+.dialog-container .action-container .btn-link{
+    padding: 5px 20px;
+    margin: 0 10px;
+    color: #c62828;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+

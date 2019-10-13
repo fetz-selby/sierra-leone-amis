@@ -1,0 +1,12 @@
+body{font-size: 12px;}
+.hide-mobile{display: none;}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hide-mobile{display: block;}
+}
+
+/* xtra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .hide-mobile{display: block;}
+}

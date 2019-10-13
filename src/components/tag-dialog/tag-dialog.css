@@ -1,0 +1,57 @@
+.tag-dialog-container{
+    padding:5px;
+}
+
+.tag-dialog-container .add-tag-label{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+.tag-dialog-container .tag-input{
+    width: 96%;
+    height: 2.2em;
+    padding: 0.30em;
+    margin-bottom: 15px;
+    font-size: 0.96em;
+    border-style: none;
+    outline: none;
+    background: #fff;
+    letter-spacing: .08em;
+    color: #555;
+    border: 1px solid #EBECEE;
+}
+
+.tag-dialog-container .tag-action-container{
+    float: right;
+}
+
+.tag-dialog-container .tag-action-container .tag-save-btn{
+    float: right;
+    font-weight: 500;
+    color: #c62828;
+    background: #fff;
+    border: 1px solid #c62828;
+    padding: 0px 10px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 22px;
+    font-size: 10px;
+}
+
+.tag-dialog-container .tag-action-container .tag-cancel-btn{
+    float: right;
+    font-weight: 100;
+    color: #c62828;
+    padding: 7px 20px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    line-height: 18px;
+    font-size: 10px;
+}

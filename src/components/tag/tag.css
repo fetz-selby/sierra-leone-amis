@@ -1,0 +1,24 @@
+.tag-widget-selector-container{
+    float: left;
+    width: 58px;
+    height: 35px;
+    margin: 2px;
+    background: #eaeaea;
+}
+
+.tag-widget-selector-container .header{
+    float: right;
+    padding: 7px 5px;
+    line-height: 0;
+}
+
+.tag-widget-selector-container .header .close{
+    cursor: pointer;
+}
+
+.tag-widget-selector-container .content{
+    padding: 5px 2px 5px 5px;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 0;
+}

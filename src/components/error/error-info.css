@@ -1,0 +1,48 @@
+.error-info-container{
+    width: 98%;
+    padding: 10%
+}
+
+.error-info-container .icon-layout{
+    float: left;
+    width: 18%;
+}
+
+.error-info-container .icon-layout .icon{
+   width: 50px;
+}
+
+.error-info-container .info-layout{
+    float: left;
+    width: 70%;
+}
+
+.error-info-container .info-layout .message-container{
+    float: left;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.error-info-container .info-layout .message-container .message{
+    outline: none;
+    line-height: 20px;
+ }
+
+ .error-info-container .info-layout .action-container{
+    float: left;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.error-info-container .info-layout .action-container .btn-link{
+    padding: 5px 20px;
+    margin: 0 10px;
+    color: #c62828;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }

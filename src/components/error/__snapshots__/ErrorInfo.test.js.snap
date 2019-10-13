@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Network Error Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ErrorInfo
+    message="network is down"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="icon-layout"
+        >
+          <img
+            alt="no connection"
+            className="icon"
+            src="no-con.svg"
+          />
+        </div>,
+        <div
+          className="info-layout"
+        >
+          <div
+            className="message-container"
+          >
+            <div
+              className="message"
+            >
+              network is down
+            </div>
+          </div>
+          <div
+            className="action-container"
+          >
+            <div
+              className="btn-link"
+            >
+              close
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "error-info-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="no connection"
+            className="icon"
+            src="no-con.svg"
+          />,
+          "className": "icon-layout",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "no connection",
+            "className": "icon",
+            "src": "no-con.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="message-container"
+            >
+              <div
+                className="message"
+              >
+                network is down
+              </div>
+            </div>,
+            <div
+              className="action-container"
+            >
+              <div
+                className="btn-link"
+              >
+                close
+              </div>
+            </div>,
+          ],
+          "className": "info-layout",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="message"
+              >
+                network is down
+              </div>,
+              "className": "message-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "network is down",
+                "className": "message",
+              },
+              "ref": null,
+              "rendered": "network is down",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="btn-link"
+              >
+                close
+              </div>,
+              "className": "action-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "btn-link",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="icon-layout"
+          >
+            <img
+              alt="no connection"
+              className="icon"
+              src="no-con.svg"
+            />
+          </div>,
+          <div
+            className="info-layout"
+          >
+            <div
+              className="message-container"
+            >
+              <div
+                className="message"
+              >
+                network is down
+              </div>
+            </div>
+            <div
+              className="action-container"
+            >
+              <div
+                className="btn-link"
+              >
+                close
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "error-info-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="no connection"
+              className="icon"
+              src="no-con.svg"
+            />,
+            "className": "icon-layout",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "no connection",
+              "className": "icon",
+              "src": "no-con.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="message-container"
+              >
+                <div
+                  className="message"
+                >
+                  network is down
+                </div>
+              </div>,
+              <div
+                className="action-container"
+              >
+                <div
+                  className="btn-link"
+                >
+                  close
+                </div>
+              </div>,
+            ],
+            "className": "info-layout",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="message"
+                >
+                  network is down
+                </div>,
+                "className": "message-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "network is down",
+                  "className": "message",
+                },
+                "ref": null,
+                "rendered": "network is down",
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="btn-link"
+                >
+                  close
+                </div>,
+                "className": "action-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "btn-link",
+                  "onClick": undefined,
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
